@@ -1,0 +1,1 @@
+Repositorio del sitio web "WhereDoggo". Sitio web enfocado en registrar perros encontrados en situacion de calle, para poder dar visibilidad hacia aquellos que puedan permitirse levantarlos y darles un hogar
