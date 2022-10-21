@@ -16,14 +16,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class DemoApplication {
 
-  // @GetMapping("/resource")
-  // @ResponseBody
-  // public Map<String, Object> home() {
-  //   Map<String, Object> model = new HashMap<String, Object>();
-  //   model.put("id", UUID.randomUUID().toString());
-  //   model.put("content", "Hello World");
-  //   return model;
-  // }
+  @GetMapping("aaa")
+  @ResponseBody
+  public Map<String, Object> home() {
+    Map<String, Object> model = new HashMap<String, Object>();
+    model.put("id", UUID.randomUUID().toString());
+    model.put("content", " aaa World");
+    return model;
+  }
 
   // @GetMapping(value = "/{path:[^\\.]*}")
   // public String redirect() {

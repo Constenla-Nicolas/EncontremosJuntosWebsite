@@ -19,15 +19,15 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Demo'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('Demo');
-  });
+  // it(`should have as title 'Demo'`, () => {
+  //   const fixture = TestBed.createComponent(AppComponent);
+  //   const app = fixture.componentInstance;
+  //   expect(app.title).toEqual('Demo');
+  // });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
-    const req = TestBed.inject(HttpTestingController).expectOne('resource');
+    const req = TestBed.inject(HttpTestingController).expectOne('aaa');
     expect(req.request.method).toEqual('GET');
     req.flush({ "id": "1234", "content": "Hello" });
     fixture.whenRenderingDone().then(
