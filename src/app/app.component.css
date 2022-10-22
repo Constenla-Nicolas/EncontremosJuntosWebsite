@@ -1,0 +1,32 @@
+.page{
+  display: block;
+position: relative;
+border: 1px solid red;
+}
+
+.container{
+  display: flex;
+
+  height: 0%;
+
+}
+.rom{
+  flex-direction: row;
+}
+.column{
+  flex-direction: column;
+}
+.card-body{
+display:flex;
+justify-content: center;
+background-color: wheat;
+border: 1px solid crimson;
+font-size: 200%;
+
+}
+#objetivo{
+  margin-bottom: -2%;
+  margin-right: 90%;
+
+}
+

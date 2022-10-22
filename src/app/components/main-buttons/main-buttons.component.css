@@ -1,33 +1,17 @@
-.card-button{
-  position: relative;
-  align-self: auto;
-  /* margin-bottom: 24px;
-  margin-left: 30%;
-  margin-right: 30%; */
-  flex: 0,1,auto;
-  display: flex;
-  border: 1px solid snow;
 
-  }
+.card-text{
+  text-align: center;
 
-.card-body{
-  flex: 1,1,auto;
 }
-.row{
-  display: flex;
-  flex-flow:
-  row
-  nowrap
-  ;
-  justify-content:
-  center
-  ;
-  align-content:
-  center
-  ;
-  align-items:
-  center
-  ;
-  justify-content: center;
-  align-items: center;
-  }
+#contactanos{
+  margin-right: 20%;
+  flex-grow: 3;
+}
+#mapa{
+flex-grow: 2;
+}
+#faq{
+flex-grow: 1;
+}
+
+
