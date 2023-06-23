@@ -1,6 +1,6 @@
-<h1>Importante: Nombre temporal del proyecto, mas adelante se cambiara a uno mas adecuado</h1>
+ 
 
-Repositorio del sitio web "WhereDoggo". Sitio web enfocado en registrar perros encontrados en situacion de calle, para poder dar visibilidad hacia aquellos que puedan permitirse levantarlos y darles un hogar
+  Repositorio del sitio web "Encontremos Juntos". Sitio web enfocado en registrar perros encontrados en situacion de calle, para poder dar visibilidad hacia aquellos que puedan permitirse levantarlos y darles un hogar
 
 <h2>⚙️ Sitio actualmente en desarrollo ⚙️</h2>
 
